@@ -1,0 +1,4 @@
+This folder contains all the Game Maker code.
+The language is GML.
+Code is obtained through exporting the code from Game Maker "objects" so that's why the code will
+have a bunch off values at the beginning of it.
