@@ -1,0 +1,11 @@
+Information about object: obj_blackbar
+Sprite: spr_blackbar
+Solid: false
+Visible: true
+Depth: -500
+Persistent: false
+Parent: 
+Children: 
+Mask: 
+
+No Physics Object

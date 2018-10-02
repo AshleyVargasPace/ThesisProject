@@ -1,0 +1,11 @@
+Information about object: obj_title
+Sprite: spr_title
+Solid: false
+Visible: true
+Depth: 0
+Persistent: false
+Parent: 
+Children: 
+Mask: 
+
+No Physics Object
