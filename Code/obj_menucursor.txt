@@ -1,0 +1,45 @@
+Information about object: obj_menucursor
+Sprite: spr_menughost
+Solid: false
+Visible: true
+Depth: 0
+Persistent: false
+Parent: 
+Children: 
+Mask: 
+
+No Physics Object
+Create Event:
+
+execute code:
+
+///
+
+Step Event:
+
+execute code:
+
+if global.MenuCount == 4
+{
+instance_destroy(obj_menucursor)
+instance_create(70, 100, obj_menucursor)
+}
+
+if global.MenuCount == 3
+{
+instance_destroy(obj_menucursor)
+instance_create(70, 180, obj_menucursor)
+}
+
+if global.MenuCount == 2
+{
+instance_destroy(obj_menucursor)
+instance_create(70, 250, obj_menucursor)
+}
+
+if global.MenuCount == 1
+{
+instance_destroy(obj_menucursor)
+instance_create(70, 310, obj_menucursor)
+}
+

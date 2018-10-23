@@ -1,0 +1,28 @@
+Information about object: obj_Right
+Sprite: spr_RightBtn
+Solid: false
+Visible: true
+Depth: -550
+Persistent: false
+Parent: 
+Children: 
+Mask: 
+
+No Physics Object
+Step Event:
+
+execute code:
+
+if mouse_sprite_check_pressed(){
+    image_blend = c_red;
+    
+}
+if mouse_sprite_check(){
+    image_alpha = 0.5;
+//    image_blend = c_white;
+}
+if mouse_sprite_check_released(){
+    image_blend = c_green;
+    
+}
+

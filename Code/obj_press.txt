@@ -1,0 +1,14 @@
+Information about object: obj_press
+Sprite: spr_press
+Solid: false
+Visible: true
+Depth: -1
+Persistent: false
+Parent: 
+Children: 
+Mask: 
+
+No Physics Object
+Create Event:
+
+set the sprite to spr_press with subimage 0 and speed .3

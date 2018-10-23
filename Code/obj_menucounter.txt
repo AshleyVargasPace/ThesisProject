@@ -1,0 +1,25 @@
+Information about object: obj_menucounter
+Sprite: 
+Solid: false
+Visible: true
+Depth: 0
+Persistent: false
+Parent: 
+Children: 
+Mask: 
+
+No Physics Object
+Create Event:
+
+execute code:
+
+global.MenuCount = 4;
+
+Draw Event:
+
+execute code:
+
+draw_set_colour(c_blue);
+draw_set_font(ft_test);
+draw_text(200, 200, global.MenuCount);
+
